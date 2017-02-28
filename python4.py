@@ -30,7 +30,7 @@ minindx = np.argmin(new)
 new = np.delete(new, minindx)
 result = np.std(new)
     #print result
- return result
+return result
 	
 random_input = rd.sample(range(0, 10), 10)
 print random_input
